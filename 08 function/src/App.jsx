@@ -1,14 +1,12 @@
 import React from 'react'
 
 const App = () => {
-  const btnClicked = () => {
-    console.log("button clicked");
+  function btnClicked(){
+    console.log('Button Clicked')
   }
-  
   return (
     <div>
-      <h1>Hello shivam</h1>
-      <button>change user</button>
+      <button onClick={btnClicked}>Clicked</button>
     </div>
   )
 }
